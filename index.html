@@ -3,120 +3,161 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Raven Hu - 个人简历</title>
+    <title>Raven Hu | MBA Candidate & Investor</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Inter', sans-serif; background-color: #f8fafc; }
-        .section-title { border-left: 4px solid #2563eb; padding-left: 1rem; margin-bottom: 1.5rem; }
+        .glass-card { background: rgba(255, 255, 255, 0.9); backdrop-filter: blur(10px); }
+        .transition-all { transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
+        .hover-lift:hover { transform: translateY(-4px); box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1); }
+        .section-line { height: 3px; width: 40px; background: #1e3a8a; margin-top: 8px; border-radius: 2px; }
     </style>
 </head>
 <body class="text-slate-800">
 
-    <header class="bg-white shadow-sm sticky top-0 z-10">
-        <div class="max-w-4xl mx-auto px-6 py-4 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-blue-600">Raven (Renxu) Hu</h1>
-            <div class="space-x-4 text-sm font-medium">
-                <a href="mailto:renxuhu0423@gmail.com" class="hover:text-blue-600"><i class="fa-regular fa-envelope mr-1"></i>联系我</a>
-                <a href="https://www.linkedin.com/in/renxu-hu/" target="_blank" class="hover:text-blue-600"><i class="fa-brands fa-linkedin mr-1"></i>LinkedIn</a>
-            </div>
-        </div>
-    </header>
-
-    <main class="max-w-4xl mx-auto px-6 py-12 space-y-16">
+    <div class="min-h-screen flex flex-col md:flex-row">
         
-        <section>
-            <div class="flex flex-col md:flex-row gap-8 items-center">
-                <div class="flex-1">
-                    <h2 class="text-3xl font-bold mb-4">Engineering Leader @ Snowflake</h2>
-                    <p class="text-lg text-slate-600 leading-relaxed">
-                        专注于打造高性能、智能化且可扩展的用户体验。在 AI 驱动的产品创新、UI 性能优化、可观测性及工作负载管理方面有深厚积淀。曾先后在 Tesla 领导电池制造软件团队，在 Snap Inc. 负责 AR 商业化技术架构。
+        <aside class="w-full md:w-80 lg:w-96 bg-slate-900 text-white p-8 md:p-12 flex flex-col justify-between md:fixed md:h-screen">
+            <div>
+                <div class="mb-8">
+                    <h1 class="text-4xl font-extrabold tracking-tight mb-2">Raven Hu</h1>
+                    <p class="text-blue-400 font-medium tracking-wide uppercase text-xs">Search Fund & ETA Explorer</p>
+                </div>
+
+                <div class="space-y-6 text-sm">
+                    <div class="flex items-center space-x-3 text-slate-300">
+                        <i class="fa-solid fa-graduation-cap w-5 text-blue-400"></i>
+                        <span>CEIBS MBA | Wharton Exchange</span>
+                    </div>
+                    <div class="flex items-center space-x-3 text-slate-300">
+                        <i class="fa-solid fa-magnifying-glass-chart w-5 text-blue-400"></i>
+                        <span>7Y AI Investing Experience</span>
+                    </div>
+                    <div class="flex items-center space-x-3 text-slate-300">
+                        <i class="fa-solid fa-location-dot w-5 text-blue-400"></i>
+                        <span>Shanghai / Philadelphia</span>
+                    </div>
+                </div>
+
+                <div class="mt-12">
+                    <h3 class="text-xs font-bold text-slate-500 uppercase tracking-widest mb-4">Core Skills</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2 py-1 bg-slate-800 rounded text-xs text-slate-300">Strategic Thinking</span>
+                        <span class="px-2 py-1 bg-slate-800 rounded text-xs text-slate-300">Financial Modeling</span>
+                        <span class="px-2 py-1 bg-slate-800 rounded text-xs text-slate-300">Industry Research</span>
+                        <span class="px-2 py-1 bg-slate-800 rounded text-xs text-slate-300">Deal Sourcing</span>
+                        <span class="px-2 py-1 bg-slate-800 rounded text-xs text-slate-300">AI Strategy</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-12 md:mt-0">
+                <div class="flex space-x-4 mb-6">
+                    <a href="https://www.linkedin.com/in/raven-hu-32957091/" target="_blank" class="text-slate-400 hover:text-white transition-all text-xl"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="mailto:your-email@example.com" class="text-slate-400 hover:text-white transition-all text-xl"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+                <p class="text-[10px] text-slate-500 uppercase tracking-tighter">© 2026 Crafted for Raven Hu</p>
+            </div>
+        </aside>
+
+        <main class="flex-1 md:ml-80 lg:ml-96 p-8 md:p-16 lg:p-24 space-y-20">
+            
+            <section>
+                <div class="max-w-3xl">
+                    <h2 class="text-2xl font-bold text-slate-900">About the Journey</h2>
+                    <div class="section-line mb-6"></div>
+                    <p class="text-lg text-slate-600 leading-relaxed font-light">
+                        我是一名中欧 MBA 候选人及沃顿商学院交换生。深耕 AI 投资领域 7 年，我致力于将<strong>严谨的投资思维</strong>与<strong>实战的交易经验</strong>相结合。目前，我正全情投入于探索<strong>搜索基金（Search Fund）与并购创业（ETA）</strong>，目标是在中国市场建立长期平台，通过全球最佳实践助力本土商业传承与产业升级。
                     </p>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section>
-            <h3 class="section-title text-xl font-bold">工作经历</h3>
-            <div class="space-y-8">
-                <div class="relative pl-8 before:content-[''] before:absolute before:left-0 before:top-2 before:w-2 before:h-2 before:bg-blue-600 before:rounded-full after:content-[''] after:absolute after:left-[3px] after:top-4 after:w-[2px] after:h-full after:bg-slate-200">
-                    <div class="flex justify-between items-start mb-1">
-                        <h4 class="font-bold text-lg">Snowflake — Engineering Leader (IC Role)</h4>
-                        <span class="text-sm text-slate-500">2024 - 至今</span>
+            <section>
+                <h2 class="text-2xl font-bold text-slate-900 mb-8">Professional Trajectory</h2>
+                <div class="space-y-6">
+                    <div class="bg-white p-6 rounded-2xl border border-slate-100 transition-all hover-lift">
+                        <div class="flex justify-between items-start mb-4">
+                            <div>
+                                <h3 class="text-lg font-bold text-slate-900">Investor</h3>
+                                <p class="text-blue-600 font-medium">Skychee Capital</p>
+                            </div>
+                            <span class="text-xs font-bold text-slate-400 uppercase tracking-wider">2019 - 2024</span>
+                        </div>
+                        <p class="text-sm text-slate-500">专注于 AI 及前沿科技领域的投资，拥有超过 5 年的深厚行业洞察力与项目执行经验。</p>
                     </div>
-                    <ul class="list-disc list-inside text-slate-600 space-y-2 mt-2">
-                        <li>架构并推出了 <strong>Cortex Code</strong>：Snowflake 的智能 AI 开发环境，为 SQL 工作表、Notebooks 和 Streamlit 提供智能辅助。</li>
-                        <li>主导 <strong>Snowflake Intelligence</strong> 的设计，连接 Cortex Analyst 和 Search 实现自然语言数据探索。</li>
-                        <li>领导前端平台优化，将 UI 延迟降低了 50%，并推动了模块化联邦架构的落地。</li>
-                    </ul>
-                </div>
 
-                <div class="relative pl-8 before:content-[''] before:absolute before:left-0 before:top-2 before:w-2 before:h-2 before:bg-blue-600 before:rounded-full after:content-[''] after:absolute after:left-[3px] after:top-4 after:w-[2px] after:h-full after:bg-slate-200">
-                    <div class="flex justify-between items-start mb-1">
-                        <h4 class="font-bold text-lg">Tesla — Staff Software Engineer / EM</h4>
-                        <span class="text-sm text-slate-500">2023 - 2024</span>
+                    <div class="bg-white p-6 rounded-2xl border border-slate-100 transition-all hover-lift">
+                        <div class="flex justify-between items-start mb-4">
+                            <div>
+                                <h3 class="text-lg font-bold text-slate-900">Senior Content Analyst</h3>
+                                <p class="text-blue-600 font-medium">36氪 (36Kr.com)</p>
+                            </div>
+                            <span class="text-xs font-bold text-slate-400 uppercase tracking-wider">2018 - 2019</span>
+                        </div>
+                        <ul class="text-sm text-slate-600 space-y-2 list-disc list-outside ml-4">
+                            <li>深度访谈近 100 家早期教育创新项目，输出高质量行业观察 30 余篇。</li>
+                            <li>主持 Mars Day 创新教育大会，并在 Life 教育创新大会发表主题演讲。</li>
+                            <li>文章累计获 2,000+ 收藏，并斩获 36kr 总编辑分析与评论奖。</li>
+                        </ul>
                     </div>
-                    <ul class="list-disc list-inside text-slate-600 space-y-2 mt-2">
-                        <li>构建了 Tesla 首个高速电池制造执行系统 (MES)，实现了跨越三个工厂的 8 倍扩展能力。</li>
-                        <li>管理多学科工程团队，利用 GraphQL, gRPC, Golang 和 Kubernetes 提升运营效率。</li>
-                    </ul>
-                </div>
 
-                <div class="relative pl-8 before:content-[''] before:absolute before:left-0 before:top-2 before:w-2 before:h-2 before:bg-blue-600 before:rounded-full">
-                    <div class="flex justify-between items-start mb-1">
-                        <h4 class="font-bold text-lg">Snap Inc. — Technical Lead</h4>
-                        <span class="text-sm text-slate-500">2019 - 2023</span>
+                    <div class="bg-white p-6 rounded-2xl border border-slate-100 transition-all hover-lift">
+                        <div class="flex justify-between items-start mb-4">
+                            <div>
+                                <h3 class="text-lg font-bold text-slate-900">Senior Industry Researcher</h3>
+                                <p class="text-blue-600 font-medium">青桐资本</p>
+                            </div>
+                            <span class="text-xs font-bold text-slate-400 uppercase tracking-wider">2016 - 2018</span>
+                        </div>
+                        <p class="text-sm text-slate-600 leading-relaxed">
+                            建立系统性行研框架，累计服务 10+ 个融资项目。完成 30 余篇深度研究报告，涵盖市场规模测算、产品竞争分析及海外趋势研究。
+                        </p>
                     </div>
-                    <ul class="list-disc list-inside text-slate-600 space-y-2 mt-2">
-                        <li>开拓了 AR 企业解决方案，通过与品牌合作创造了数亿美元的收入。</li>
-                        <li>主导了 Snapchat Memories 的技术执行，显著提升了日均观看量。</li>
-                    </ul>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section>
-            <h3 class="section-title text-xl font-bold">技术技能</h3>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div class="bg-white p-4 rounded-lg shadow-sm border border-slate-100">
-                    <h5 class="font-bold mb-2 text-blue-600">AI & 平台工程</h5>
-                    <p class="text-sm text-slate-600">Coding Agent 架构, MCP 集成, Prompt 编排, 模型微调工作流, RAG</p>
+            <section>
+                <h2 class="text-2xl font-bold text-slate-900 mb-8">Academic Foundation</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div class="p-6 bg-slate-50 rounded-2xl border border-slate-200">
+                        <h4 class="font-bold text-slate-900">CEIBS</h4>
+                        <p class="text-xs text-slate-500 mb-2">MBA Candidate (2024-2026)</p>
+                        <p class="text-sm text-slate-600">中欧国际工商学院</p>
+                    </div>
+                    <div class="p-6 bg-blue-50 rounded-2xl border border-blue-100">
+                        <h4 class="font-bold text-blue-900">Wharton</h4>
+                        <p class="text-xs text-blue-500 mb-2">Exchange Program (2025)</p>
+                        <p class="text-sm text-blue-800 font-medium">Focus: Search Fund & ETA</p>
+                    </div>
+                    <div class="p-6 bg-slate-50 rounded-2xl border border-slate-200">
+                        <h4 class="font-bold text-slate-900">Fudan University</h4>
+                        <p class="text-xs text-slate-500 mb-2">Bachelor's in Political Science</p>
+                        <p class="text-sm text-slate-600 italic">Outstanding Graduate</p>
+                    </div>
+                    <div class="p-6 bg-slate-50 rounded-2xl border border-slate-200">
+                        <h4 class="font-bold text-slate-900">UC Berkeley</h4>
+                        <p class="text-xs text-slate-500 mb-2">Exchange Scholar</p>
+                        <p class="text-sm text-slate-600 italic">Political Science</p>
+                    </div>
                 </div>
-                <div class="bg-white p-4 rounded-lg shadow-sm border border-slate-100">
-                    <h5 class="font-bold mb-2 text-blue-600">前端 / Web</h5>
-                    <p class="text-sm text-slate-600">TypeScript, React, Next.js, GraphQL, 模块化联邦 (Module Federation)</p>
-                </div>
-                <div class="bg-white p-4 rounded-lg shadow-sm border border-slate-100">
-                    <h5 class="font-bold mb-2 text-blue-600">后端 / 基础设施</h5>
-                    <p class="text-sm text-slate-600">Golang, Java, Node.js, gRPC, Kubernetes, Docker, 分布式追踪</p>
-                </div>
-                <div class="bg-white p-4 rounded-lg shadow-sm border border-slate-100">
-                    <h5 class="font-bold mb-2 text-blue-600">数据分析</h5>
-                    <p class="text-sm text-slate-600">Snowflake, SQL, Python, Airflow, 数据可视化</p>
-                </div>
-            </div>
-        </section>
+            </section>
 
-        <section>
-            <h3 class="section-title text-xl font-bold">教育背景</h3>
-            <div class="bg-white p-6 rounded-lg shadow-sm border border-slate-100 flex justify-between items-center">
-                <div>
-                    <h4 class="font-bold text-lg">加州大学圣地亚哥分校 (UCSD)</h4>
-                    <p class="text-slate-600">计算机工程学士 (B.S. in Computer Engineering)</p>
+            <section class="max-w-2xl">
+                <h2 class="text-2xl font-bold text-slate-900">Honors & Beyond</h2>
+                <div class="section-line mb-8"></div>
+                <div class="flex items-start space-x-4 p-4 rounded-xl border-l-4 border-blue-600 bg-white shadow-sm">
+                    <div class="text-blue-600 mt-1"><i class="fa-solid fa-trophy"></i></div>
+                    <div>
+                        <p class="font-bold text-slate-800">复旦大学优秀毕业生</p>
+                        <p class="text-sm text-slate-500">2017 | 优秀学生奖学金 (Top 30%)</p>
+                    </div>
                 </div>
-                <div class="text-right">
-                    <p class="font-medium text-blue-600">GPA 3.8 / 3.9</p>
-                </div>
-            </div>
-        </section>
+            </section>
 
-    </main>
-
-    <footer class="bg-slate-900 text-slate-400 py-12">
-        <div class="max-w-4xl mx-auto px-6 text-center">
-            <p>© 2026 Raven Hu. 基于公开资料生成。</p>
-        </div>
-    </footer>
+        </main>
+    </div>
 
 </body>
 </html>
