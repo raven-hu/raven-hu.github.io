@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raven Hu - 个人简历</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #f8fafc; }
+        .section-title { border-left: 4px solid #2563eb; padding-left: 1rem; margin-bottom: 1.5rem; }
+    </style>
+</head>
+<body class="text-slate-800">
+
+    <header class="bg-white shadow-sm sticky top-0 z-10">
+        <div class="max-w-4xl mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-blue-600">Raven (Renxu) Hu</h1>
+            <div class="space-x-4 text-sm font-medium">
+                <a href="mailto:renxuhu0423@gmail.com" class="hover:text-blue-600"><i class="fa-regular fa-envelope mr-1"></i>联系我</a>
+                <a href="https://www.linkedin.com/in/renxu-hu/" target="_blank" class="hover:text-blue-600"><i class="fa-brands fa-linkedin mr-1"></i>LinkedIn</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-6 py-12 space-y-16">
+        
+        <section>
+            <div class="flex flex-col md:flex-row gap-8 items-center">
+                <div class="flex-1">
+                    <h2 class="text-3xl font-bold mb-4">Engineering Leader @ Snowflake</h2>
+                    <p class="text-lg text-slate-600 leading-relaxed">
+                        专注于打造高性能、智能化且可扩展的用户体验。在 AI 驱动的产品创新、UI 性能优化、可观测性及工作负载管理方面有深厚积淀。曾先后在 Tesla 领导电池制造软件团队，在 Snap Inc. 负责 AR 商业化技术架构。
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h3 class="section-title text-xl font-bold">工作经历</h3>
+            <div class="space-y-8">
+                <div class="relative pl-8 before:content-[''] before:absolute before:left-0 before:top-2 before:w-2 before:h-2 before:bg-blue-600 before:rounded-full after:content-[''] after:absolute after:left-[3px] after:top-4 after:w-[2px] after:h-full after:bg-slate-200">
+                    <div class="flex justify-between items-start mb-1">
+                        <h4 class="font-bold text-lg">Snowflake — Engineering Leader (IC Role)</h4>
+                        <span class="text-sm text-slate-500">2024 - 至今</span>
+                    </div>
+                    <ul class="list-disc list-inside text-slate-600 space-y-2 mt-2">
+                        <li>架构并推出了 <strong>Cortex Code</strong>：Snowflake 的智能 AI 开发环境，为 SQL 工作表、Notebooks 和 Streamlit 提供智能辅助。</li>
+                        <li>主导 <strong>Snowflake Intelligence</strong> 的设计，连接 Cortex Analyst 和 Search 实现自然语言数据探索。</li>
+                        <li>领导前端平台优化，将 UI 延迟降低了 50%，并推动了模块化联邦架构的落地。</li>
+                    </ul>
+                </div>
+
+                <div class="relative pl-8 before:content-[''] before:absolute before:left-0 before:top-2 before:w-2 before:h-2 before:bg-blue-600 before:rounded-full after:content-[''] after:absolute after:left-[3px] after:top-4 after:w-[2px] after:h-full after:bg-slate-200">
+                    <div class="flex justify-between items-start mb-1">
+                        <h4 class="font-bold text-lg">Tesla — Staff Software Engineer / EM</h4>
+                        <span class="text-sm text-slate-500">2023 - 2024</span>
+                    </div>
+                    <ul class="list-disc list-inside text-slate-600 space-y-2 mt-2">
+                        <li>构建了 Tesla 首个高速电池制造执行系统 (MES)，实现了跨越三个工厂的 8 倍扩展能力。</li>
+                        <li>管理多学科工程团队，利用 GraphQL, gRPC, Golang 和 Kubernetes 提升运营效率。</li>
+                    </ul>
+                </div>
+
+                <div class="relative pl-8 before:content-[''] before:absolute before:left-0 before:top-2 before:w-2 before:h-2 before:bg-blue-600 before:rounded-full">
+                    <div class="flex justify-between items-start mb-1">
+                        <h4 class="font-bold text-lg">Snap Inc. — Technical Lead</h4>
+                        <span class="text-sm text-slate-500">2019 - 2023</span>
+                    </div>
+                    <ul class="list-disc list-inside text-slate-600 space-y-2 mt-2">
+                        <li>开拓了 AR 企业解决方案，通过与品牌合作创造了数亿美元的收入。</li>
+                        <li>主导了 Snapchat Memories 的技术执行，显著提升了日均观看量。</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h3 class="section-title text-xl font-bold">技术技能</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-white p-4 rounded-lg shadow-sm border border-slate-100">
+                    <h5 class="font-bold mb-2 text-blue-600">AI & 平台工程</h5>
+                    <p class="text-sm text-slate-600">Coding Agent 架构, MCP 集成, Prompt 编排, 模型微调工作流, RAG</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-sm border border-slate-100">
+                    <h5 class="font-bold mb-2 text-blue-600">前端 / Web</h5>
+                    <p class="text-sm text-slate-600">TypeScript, React, Next.js, GraphQL, 模块化联邦 (Module Federation)</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-sm border border-slate-100">
+                    <h5 class="font-bold mb-2 text-blue-600">后端 / 基础设施</h5>
+                    <p class="text-sm text-slate-600">Golang, Java, Node.js, gRPC, Kubernetes, Docker, 分布式追踪</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-sm border border-slate-100">
+                    <h5 class="font-bold mb-2 text-blue-600">数据分析</h5>
+                    <p class="text-sm text-slate-600">Snowflake, SQL, Python, Airflow, 数据可视化</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h3 class="section-title text-xl font-bold">教育背景</h3>
+            <div class="bg-white p-6 rounded-lg shadow-sm border border-slate-100 flex justify-between items-center">
+                <div>
+                    <h4 class="font-bold text-lg">加州大学圣地亚哥分校 (UCSD)</h4>
+                    <p class="text-slate-600">计算机工程学士 (B.S. in Computer Engineering)</p>
+                </div>
+                <div class="text-right">
+                    <p class="font-medium text-blue-600">GPA 3.8 / 3.9</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-slate-900 text-slate-400 py-12">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <p>© 2026 Raven Hu. 基于公开资料生成。</p>
+        </div>
+    </footer>
+
+</body>
+</html>
